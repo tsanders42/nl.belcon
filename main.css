@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+    width: 100%;
+    margin:0px;
+}
+.title{
+    background:transparent url('hummingbird.png');
+    background-position: center bottom;
+    background-size: cover;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-color: #8dbef6;
+}
+.logo{
+  border: 10px solid #000;
+  background: url('belcon-hummingbird-hires.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  width: 10%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
