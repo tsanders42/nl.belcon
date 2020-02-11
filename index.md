@@ -68,8 +68,8 @@ body a:hover{
 
     <div class="container">
         <div class="row h-100 title-row">
-            <div class="col-3"></div>
-            <div class="col-6 mx-auto">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 mx-auto">
                 <h1>
                     <div>
                         <img class="logo text-center" src="belcon-hummingbird-hires.png">
@@ -82,11 +82,11 @@ body a:hover{
                     Belmont Consultancy offers hands-on digital consultancy services with a proven track record in digital transformation, web and mobile optimization and data analysis.
                 </div>
             </div>
-            <div class="col-3"></div>
+            <div class="col-md-3"></div>
         </div>
         <div class="row content-row" >
-            <div class="col-2"></div>
-            <div class="col-8">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <h2>
                     <div class="text-center">
                         About Belmont Consultancy
@@ -107,12 +107,12 @@ body a:hover{
                     </div>
 
             </div>
-            <div class="col-2"></div>
+            <div class="col-md-2"></div>
         </div>
 
         <div class="row content-row" >
-            <div class="col-2"></div>
-            <div class="col-8">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <h2>
                     <div class="text-center">
                         Contact Belmont Consultancy
@@ -132,7 +132,7 @@ body a:hover{
                     </div>
                     
             </div>
-            <div class="col-2"></div>
+            <div class="col-md-2"></div>
         </div>
     </div>
 
