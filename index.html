@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Belmont Consultancy. You one-stop shop for software development, project management, product ownership and online strategy conslutancy.</title>
+    <meta name="description" content="Belmont Consultancy helps organisations become more productive online.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+    <style>
+      .embla {
+        position: relative;
+      }
+      .embla__viewport {
+        overflow: hidden;
+      }
+      .embla__container {
+        display: flex;
+        flex-direction: row;
+      }
+      .embla__slide {
+        flex: 0 0 100%;
+        min-width: 0;
+        max-width: 80%;
+        padding: 2rem;
+        text-align: center;
+        padding: 1rem;
+        margin: 1rem;
+        box-shadow: 5px 5px 10px -3px oklch(55.4% 0.046 257.417);
+        border: 1px solid #453f3fe6;
+      }
+      .embla__slide.centered {
+        text-align: center;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .embla__prev, .embla__next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: oklch(55.4% 0.046 257.417 / 0.8);
+        color: white;
+        border: none;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        z-index: 10;
+        transition: background 0.2s;
+      }
+      .embla__viewport {
+        position: relative;
+      }
+      .embla__prev:hover, .embla__next:hover {
+        background: oklch(54.6% 0.245 262.881 / 0.8);
+      }
+      .embla__prev {
+        left: 1rem;
+      }
+      .embla__next {
+        right: 1rem;
+      }
+    </style>
+</head>
+
+<body class="bg-slate-100 dark:bg-slate-900 text-base text-slate-800 dark:text-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="text-center py-8 flex flex-col items-center justify-center">
+      <img class="h-32 w-auto" src="belcon-hummingbird-hires.png">
+      <h1 class="font-bold text-4xl">
+        Belmont Consultancy
+      </h1>
+      <h2 class="text-2xl">
+        Consultancy for software development, project management, product ownership and online strategy
+      </h2>
+    </header>
+
+    <div>
+      <div class="embla">
+      <div class="embla__viewport">
+        <div class="embla__container">
+
+          <div class="embla__slide text-center py-8 flex flex-col items-center justify-content-start border-1 rounded-sm shadow-lg">
+            <h3 class="text-2xl font-bold">Online streaming content guide</h3>
+            <img class="mb-4 max-h-64 align-center max-w-64 rounded-sm shadow-lg shadow-slate-500 dark:shadow-slate-500" src="nieuwdezeweek.png">
+
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Business objective</h4>
+                <div>
+                  <a href="https://nieuwdezeweek.nl" class="underline hover:decoration-2">Nieuw Deze Week</a> offers visitors an overview of newly added movies, series, audio books, ebooks and music for popular streaming services. Facing legacy maintenance costs, there was a need to bring the website's technology stack up to date, prepare for future international expansion and allow for further automation through the use of external APIs.
+                </div>
+              </div>
+
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Execution</h4>
+                <div>
+                  Build a new application using Python Django and Tailwind CSS. Migrate from Google Cloud to dedicated servers using Docker containers combined with Cloudflare caching and statics hosting and add a staging environment.</p>
+                </div>
+              </div>
+
+
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Results</h4>
+                <div>
+                  90% reduction in hosting costs, enabled expansion into the German market with minimal development effort.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="embla__slide text-center py-8 flex flex-col items-center justify-content-start border-1 rounded-sm shadow-lg">
+            <h3 class="text-2xl font-bold">Backoffice planning tool</h3>
+            <img class="mb-4 max-h-64 align-center max-w-64 rounded-sm shadow-lg shadow-slate-500 dark:shadow-slate-500" src="planning.png">
+
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Business objective</h4>
+                <div>
+                  A client in the real-estate photography business was looking for way to more efficiently manage the scheduling of photo shoots to keep up with the growth of its business and team of photographers. The previous proces would involve the manual booking of appointments, which was error-prone and made monthly invoicing a cumbersome task. In addition to automation, there was a need to add a confirmation workflow to reduce no-shows.
+                </div>
+              </div>
+            </div>
+          
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Execution</h4>
+                <div>
+                  Created a Python Django application with custom admin screens to provide a fully customized booking screen that is optimized for mobile as well as desktop. To keep technical maintenance to a minimum, Heroku was selected as the PaaS provider. On creating and updating a project, through the use of APIs the system automatically updates the photographer's calendar and creates a uniform project folder in the team's Dropbpox. The client then receives an email asking them to confirm the booking, which is logged in the system. On completion of the assigment, the system sends an email with a download link to the client, and the system integrates with a 3rd party invoicing tool to allow the assigment to be invoiced.
+                </div>
+              </div>
+            </div>
+
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Results</h4>
+                <div>
+                  Fully eliminated discussions around no-shows and forgotten appointments. 95% reduction in time spent on administering appointments.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="embla__slide text-center py-8 flex flex-col items-center justify-content-start border-1 rounded-sm shadow-lg">
+            <h3 class="text-2xl font-bold">Downdetector</h3>
+            <img class="mb-4 max-h-64 align-center max-w-64 rounded-sm shadow-lg shadow-slate-500 dark:shadow-slate-500" src="downdetector.png">
+
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Business objective</h4>
+                <div>
+                  Belmont Consultancy is the founder of <a class="underline hover:decoration-2" href="https://downdetector.com">Downdetector</a>, the world's largest website for reporting and tracking service outages. The platform allows users to report issues with online services and track the status of reported outages in real-time. The platform was acquired by Ookla. Centered around the vision that user reports are the best way to report service disruptions, Downdetector offers the fastest outage detection available in the market today. 
+                </div>
+              </div>
+            </div>
+
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Execution</h4>
+                <div>
+                  Downdetector went through multiple plaform iterations to keep up with the growing user base and features, starting with traditional server hosting and moving to a highly scalable cloud environment based on AWS at the time of acquisition.  
+                  Following the acquisition by Ookla, Belmont Consultancy was asked to stay on board in the role of product owner to ensure a smooth handover. On completion of this process, we decided to return to a role that offered more enterpreurial freedom.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="embla__slide text-center py-8 flex flex-col items-center justify-content-start border-1 rounded-sm shadow-lg">
+            <h3 class="text-2xl font-bold">Sup Rondje Haarlem event and registration website</a></h3>
+            <img class="mb-4 max-h-64 align-center max-w-64 rounded-sm shadow-lg shadow-slate-500 dark:shadow-slate-500" src="suprondjehaarlem.png">
+
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Business objective</h4>
+                <div>
+                  <a class="underline hover:decoration-2" href="https://suprondjehaarlem.nl">Sup Rondje Haarlem</a> is an annual paddleboarding race and tour in the city of Haarlem. A website was need to offer greater visibility. The abilility to register beyond a simple form was a welcome addition to reduce manual tasks by the event organisers both leading up to the event and on race-day.
+                </div>
+              </div>
+
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Execution</h4>
+                <div>
+                  With a traffic peak shortly before the event, a scaleable soltion with minimal overhead was called for. We settled on a solution using Node which builds a static website on deployment that is hosted on Cloudflare Pages, combined with a lightweight D1 database and Workers for the registration and payment process.              
+                </div>
+              </div>
+            </div>
+
+            <div class="text-left">
+              <div class="py-2">
+                <h4 class="text-xl font-bold">Results</h4>
+                <div>
+                  Building static pages during deploys, combined with cloud services provides the highly scalable Cloudflare plafform, while the lack of servers leads to zero hosting costs during the off-season.
+                </div>
+              </div>                
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <button class="embla__prev">‹</button>
+      <button class="embla__next">›</button>
+  </div>
+
+  <div class="py-8">
+    <h3 class="text-2xl font-bold text-center py-8">About us</h3>
+    Belmont Consultancy is founded by Tom Sanders. Just like Belmont Consultancy, my expertise lies in agililty and tackling business problems. I enjoy endurance sports, because just like your business needs, performing in an ultra race requires preparation, strategy, persistence and the ability to adapt to ever changing conditions. The same agility can be found in my prior experience, which include working as a reporter, a 6-year posting as a foreign correspondent in the San Francisco Bay Area, and managing 5 publications as Group Editor in Chief.
+  </div>
+
+
+  <div class="py-8">
+    <h3 class="text-2xl font-bold text-center py-8">Contact</h3>
+    Let's discuss your project and how we can help you achieve your goals. Send us an email at <a href="mailto:info@belcon.nl">info@belcon.nl</a>
+    <br>
+    Or visit our office in Haarlem:
+    <br>
+    Belmont Consultancy
+    <br>
+    Zuider Buiten Spaarne 16
+    <br>
+    2012 AA Haarlem
+    <br>
+    The Netherlands
+    <br>
+    KvK: 89018168
+
+  </div>
+
+
+  <script>
+    const emblaNode = document.querySelector('.embla__viewport')
+    const embla = EmblaCarousel(emblaNode, { 
+      loop: true
+    }, [
+      EmblaCarouselAutoplay({ 
+        delay: 3000, 
+        stopOnInteraction: true,
+        stopOnMouseEnter: true
+      })
+    ])
+    
+    const prevBtn = document.querySelector('.embla__prev')
+    const nextBtn = document.querySelector('.embla__next')
+    
+    prevBtn.addEventListener('click', () => embla.scrollPrev())
+    nextBtn.addEventListener('click', () => embla.scrollNext())
+  </script>
+
+  </div>
+</body>
+</html>
